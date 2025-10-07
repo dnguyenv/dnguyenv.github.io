@@ -1,4 +1,15 @@
-title: "Duy Nguyen"
-description: "Thoughts on AI Platforms, Graph Memory, and Machine Intelligence"
+title: "Spirited Engineering"
+description: "Thoughts on AI, Platforms Engineering, Quantumn Computing, And Life."
 theme: minima
 author: "Duy Nguyen"
+
+# Optional: simple top nav
+# header_pages: [about.md]
+
+# Optional: cleaner permalinks (classic look)
+permalink: /:year/:month/:title/
+
+# Navigation links that appear in the top header
+header_pages: 
+  - about.md
+

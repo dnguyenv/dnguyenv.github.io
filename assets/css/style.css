@@ -1,0 +1,25 @@
+---
+# Jekyll front matter so this file gets processed
+---
+
+@import "minima";
+
+/* Hide the extra page H1 on the home layout */
+.home .page-heading { display: none; }
+
+/* Classical, elegant feel */
+.page-title, .post-title {
+  font-family: Georgia, "Times New Roman", serif;
+  font-weight: 500;
+  letter-spacing: .01em;
+}
+
+/* Softer masthead + description */
+.site-title { font-weight: 500; letter-spacing: .02em; }
+.site-description { color: #6b7280; }
+
+/* Comfortable reading width */
+.post-content { max-width: 760px; }
+
+/* Subtle footer */
+.site-footer { color: #6b7280; }
