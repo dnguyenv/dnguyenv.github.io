@@ -2,7 +2,7 @@
 title: "Knowledge Graphs in AI Memory Evolution"
 date: 2025-10-04
 author: "Duy Nguyen"
-theme: minima
+theme: architect
 tags: ["AI", "Knowledge Graphs", "Platform Engineering", "Agentic Systems", "Claude Sonnet 4.5", "Semantic Web"]
 description: "Exploring how graph-based structures are redefining long-term AI memory systems, from Claude Sonnet 4.5 to the emerging convergence of graphs, vectors, and text."
 categories: ["AI Architecture", "Memory Systems", "Semantic Engineering"]
