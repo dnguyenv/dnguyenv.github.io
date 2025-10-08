@@ -3,13 +3,15 @@ layout: page
 title: "Badges"
 permalink: /badges/
 ---
-Badges & bragging rights
+## Badges & bragging rights
+
 Okay, I’ll admit it, this page is a bit of a humblebrag. But if you’ve landed here, you might be curious about the credentials behind the code. So here goes:
-Academic & research
 
-Google Scholar Citation Profile — where some of my thoughts have been cited more than once (thankfully not just by me).
+### Academic & research
 
-Professional Certifications
+[Google Scholar Citation Profile](https://scholar.google.com/citations?user=vIrQVmEAAAAJ&hl=en) — where some of my thoughts have been cited more than once (thankfully not just by me).
+
+### Professional Certifications
 
 IBM Academy of Technology – Member
 
@@ -31,9 +33,10 @@ Novell Certified Data Center Advanced Technical Specialist
 
 Novell Certified Linux Administrator (SuSE Enterprise Server 10)
 
-Full list of digital badges can be found here.
+Full list of digital badges can be found [here](https://www.youracclaim.com/user/duy-nguyen.d7c36a88).
 
-Patents
+### Patents
+
 Yes, I’ve filed a few ideas that made it through the gauntlet:
 
 US9329772 – Adjusting eraser size in drawing applications
@@ -42,7 +45,7 @@ US20220114026 – Tag-driven scheduling of computing resources for function exec
 
 US20220058753 – Systems and methods for intelligent casting of social media creators
 
-Publications
+### Publications
 
 Some thoughts made it into print:
 
