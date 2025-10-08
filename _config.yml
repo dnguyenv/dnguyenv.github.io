@@ -12,4 +12,5 @@ permalink: /:year/:month/:title/
 # Navigation links that appear in the top header
 header_pages: 
   - about.md
+  - badges.md
 
