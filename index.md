@@ -1,6 +1,6 @@
 ---
 layout: home
-title: "DuyHard"
+title: "Home"
 ---
 
 Welcome to my thoughts.
