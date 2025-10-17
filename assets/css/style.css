@@ -4,12 +4,16 @@
 
 @import "minima";
 
+body {
+  font-family: Arial, sans-serif;
+}
+
 /* Hide the extra page H1 on the home layout */
 .home .page-heading { display: none; }
 
 /* Classical, elegant feel */
 .page-title, .post-title {
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: Arial, sans-serif;
   font-weight: 500;
   letter-spacing: .01em;
 }
