@@ -58,7 +58,7 @@ This brings us to a more complete picture of the full stack. The frontend that t
 ![Full Stack](/assets/images/full-stack-agentic-ai.png)
 
 ### Final Thoughts
-The key takeaway is that building robust Agentic AI is a full-stack discipline. It's an architectural endeavor, not a single-tool problem. What's exciting to me is that we are seeing the patterns solidify. While the specific vendors and libraries will surely evolve, the conceptual layers—from data ingestion and retrieval to reasoning and observability—provide a durable mental model for engineering these systems.
+The key takeaway is that building robust Agentic AI is a full-stack discipline, a fun architectural endeavor. What's exciting to me is that we are seeing the patterns solidify. While the specific vendors and libraries will surely evolve, the conceptual layers—from data ingestion and retrieval to reasoning and observability—provide a durable mental model for engineering these systems.
 
 The iceberg is a fitting analogy. The conversational interface is what everyone sees, but the real work, the deep engineering that provides the stability and intelligence, lies in the vast, integrated stack beneath the surface.
 
