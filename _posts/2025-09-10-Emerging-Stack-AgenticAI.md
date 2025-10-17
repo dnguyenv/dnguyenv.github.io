@@ -1,6 +1,6 @@
 ---
 title: "Emerging Tech Stack for Agentic AI"
-date: 2025-10-10
+date: 2025-09-10
 author: "Duy Nguyen"
 theme: architect
 tags: ["AI", "Knowledge Graphs", "Platform Engineering", "Agentic Systems", "Marathon", "Leadership"]
