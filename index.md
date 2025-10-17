@@ -1,6 +1,6 @@
 ---
 layout: home
-title: "Duy Nguyen"
+title: "DuyHard"
 ---
 
 Welcome to my thoughts.

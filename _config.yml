@@ -10,7 +10,8 @@ author: "Duy Nguyen"
 permalink: /:year/:month/:title/
 
 # Navigation links that appear in the top header
-header_pages: 
+header_pages:
+  - index.md 
   - about.md
   - badges.md
 
