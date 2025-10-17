@@ -2,6 +2,7 @@ title: "Spirited Engineering"
 description: "Thoughts on AI, Platforms Engineering, Quantumn Computing, And Life."
 theme: minima
 author: "Duy Nguyen"
+favicon: "/favicon.ico"
 
 # Optional: simple top nav
 # header_pages: [about.md]
