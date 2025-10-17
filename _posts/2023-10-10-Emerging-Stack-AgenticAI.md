@@ -35,7 +35,7 @@ With our data transformed into a collection of vectors, we need a place to store
 
 This flow, from raw document to retrieved context, forms the backbone of an agent's ability to answer questions based on private data. We can visualize this data pipeline as follows.
 
-![RAG](/assets/images/rag.png)
+![RAG](/assets/images/rag.png){: .center}
 
 ### The Reasoning and Action Layer
 Once the agent has retrieved the necessary context, the core reasoning process can begin. This is where the LLM itself comes into play, orchestrated by a layer that manages the interaction.
