@@ -32,7 +32,7 @@ img.center {
 .site-description { color: #6b7280; }
 
 /* Comfortable reading width */
-.post-content { max-width: 760px; }
+.post-content { max-width: 760px; text-align: justify; }
 
 /* Subtle footer */
 .site-footer { color: #6b7280; }

@@ -1,6 +1,6 @@
 ---
 title: "Running the System: A Conversation With Life"
-date: 2015-11-04
+date: 2025-11-04
 author: "Duy Nguyen"
 theme: architect
 tags: ["Marathon", "Leadership"]
