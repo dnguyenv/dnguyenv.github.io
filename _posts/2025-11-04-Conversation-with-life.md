@@ -20,22 +20,22 @@ I negotiate with code, services, diagrams, dashboards .. problems that submit to
 The plan was clean and reasonable. Lock onto the 3:30 pacer. Stay patient. Respect the training. No heroics, no chaos, just disciplined miles. The countdown hummed through the speakers. The horn sounded. Thousands of bodies surged forward, and suddenly we were moving through that corridor of color, feet hitting pavement in a steady, hypnotic rhythm.
 Those early miles felt almost unfairly good.
 
-My breathing settled into a smooth pattern. The pace held steady without strain. Splits landed exactly where they should. The 3:30 group became a small constellation ahead of me, close enough to trust, far enough to chase. The crowd along the sidewalks sent up a constant ripple of sound—claps, cowbells, names shouted off bibs, waves from strangers who suddenly felt less like strangers.
+My breathing settled into a smooth pattern. The pace held steady without strain. Splits landed exactly where they should. The 3:30 group became a small constellation ahead of me, close enough to trust, far enough to chase. The crowd along the sidewalks sent up a constant ripple of sound,claps, cowbells, names shouted off bibs, waves from strangers who suddenly felt less like strangers.
 
 *And then came the first shout: “Go Grogu!”*
 
-A kid on the sidewalk had spotted the hat. Then another picked it up, louder. “Go Grogu! You got this!” They weren’t cheering for my pacing chart, they were cheering for a tiny green alien and whoever decided to run 26.2 miles wearing him. It was ridiculous and perfect. That silly connection threaded joy through the effort, made the whole thing feel lighter, more human. Not just numbers now—story, playfulness, community.
+A kid on the sidewalk had spotted the hat. Then another picked it up, louder. “Go Grogu! You got this!” They weren’t cheering for my pacing chart, they were cheering for a tiny green alien and whoever decided to run 26.2 miles wearing him. It was ridiculous and perfect. That silly connection threaded joy through the effort, made the whole thing feel lighter, more human. Not just numbers now,story, playfulness, community.
 
 Through ten miles, fifteen, twenty, the world narrowed in the best possible way: steady breath, rhythmic footfalls, the reassuring presence of other runners pulling you along. For long stretches, it felt like the race was saying yes to everything I’d asked of it. Yes to the training. Yes to the target. Yes to the quiet dream of hitting that 3:30 with a little style.
 
 *Then mile 20 arrived and tore up the script.*
 
-There was no warning flare, no cinematic music shift. One step landed fine. The next step detonated. A brutal cramp shot up my left calf, sudden and blinding. I flinched, adjusted, tried to run it off—my right calf seized in solidarity, locking just as hard. The effect was immediate and vicious, like someone had swapped my legs for rusted cables.
+There was no warning flare, no cinematic music shift. One step landed fine. The next step detonated. A brutal cramp shot up my left calf, sudden and blinding. I flinched, adjusted, tried to run it off,my right calf seized in solidarity, locking just as hard. The effect was immediate and vicious, like someone had swapped my legs for rusted cables.
 Up ahead, the 3:30 pacer kept gliding, untouched, a metronome in motion. In the space of a few breaths, that sign started to drift away, taking the elegant version of my race with it.
 
 *Pain hit with coordinates.*
 
-Every step fired a sharp signal. The questions came as fast as the pulses: Dammn it! What did I miss? Did I misjudge? Is this where it ends? The crowd blurred for a moment. My brain grabbed for frustration, embarrassment, bargaining—anything but acceptance. It’s astonishing how quickly your inner narrative turns on you when the body stops cooperating.
+Every step fired a sharp signal. The questions came as fast as the pulses: Dammn it! What did I miss? Did I misjudge? Is this where it ends? The crowd blurred for a moment. My brain grabbed for frustration, embarrassment, bargaining,anything but acceptance. It’s astonishing how quickly your inner narrative turns on you when the body stops cooperating.
 
 *But the marathon doesn’t pause for a feelings meeting.*
 
@@ -51,7 +51,7 @@ And right in the middle of that mess, the world outside my pain broke through ag
 “Go Grogu! Keep going!”
 Another cluster of kids. Big smiles. Pointing at the hat like I’d stepped off a movie set. They had no idea that I was hanging on by a thread. They weren’t measuring splits or projecting finish times. They just saw someone still out there, still trying, and decided to cheer.
 It shouldn’t have mattered as much as it did.
-But that simple, earnest support slipped through the armor. I laughed—actually laughed—in the middle of those spasms, and the sound cracked the suffocating seriousness of the whole ordeal. The pain didn’t vanish ... it lost some of its authority. It became one part of the story instead of the entire headline.
+But that simple, earnest support slipped through the armor. I laughed,actually laughed,in the middle of those spasms, and the sound cracked the suffocating seriousness of the whole ordeal. The pain didn’t vanish ... it lost some of its authority. It became one part of the story instead of the entire headline.
 
 *The final miles were rough, honest work.*
 
