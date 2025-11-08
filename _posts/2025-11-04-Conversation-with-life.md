@@ -10,39 +10,60 @@ draft: false
 ---
 ![Marathon](/assets/images/marathon25.jpg) 
 
-Much of my professional life is spent in the abstract, interfacing with complex systems through a screen. While arguably intellectually engaging, this work can create a disconnect from the primary physical system we inhabit: our own body and the environment. I find running a marathon serves as a powerful, practical corrective. It's a long-duration event that forces a direct, high-stakes "conversation" with one's own physical and mental components. It’s typically a 4-hour systems test.
+*Most days, my life is framed by glass and pixels.*
+I negotiate with code, services, diagrams, dashboards .. problems that submit to logic and version control. It’s satisfying in its own way, but gradually it teaches a quiet illusion, that endurance lives in the mind, that complexity is something you can model, that control is just a well-designed system away. Hours pass without my feet touching anything more demanding than an office floor.
 
-This post is a brief post-mortem on my recent run at the City of Oaks marathon—a reflection on the plan, the execution, and the (unexpected) lessons learned from a significant runtime failure.
+*Then race day arrives and rips that illusion clean off.*
 
-### The Plan vs. The Reality
+*City of Oaks* greeted us with a kind of beauty that felt staged. Cold, bright air. Streets wrapped in fall colors ... red, gold, amber leaves hanging like a canopy over the course. Sunlight glanced off the pavement in broken, dancing patches. The whole city seemed to lean in and say, *“No excuses today.”* I stood in the corral in my Grogu hat that my daughters made me on my birthday, and Star Wars shirt, half amused at my own attempt at free brand advertising, half hoping some kid out there would notice. Around me, runners shifted, stretched, shook out nerves. You could feel the shared charge ... anticipation, fear, hope, ... rolling through the crowd in invisible waves.
 
-In software engieering, we start with a design. In this marathon, the design was quite straightforward: I had a solid training block, and the system (my body and mind) felt well-provisioned and tested. The plan was to integrate with the 3:45 pacer group, maintain a steady state, and execute. 
+The plan was clean and reasonable. Lock onto the 3:30 pacer. Stay patient. Respect the training. No heroics, no chaos, just disciplined miles. The countdown hummed through the speakers. The horn sounded. Thousands of bodies surged forward, and suddenly we were moving through that corridor of color, feet hitting pavement in a steady, hypnotic rhythm.
+Those early miles felt almost unfairly good.
 
-The initial conditions were optimal. Besides the perfect running weather, the entire operating environment was a significant positive factor. We ran through the 'City of Oaks' on a perfect fall morning, with the course shaded by a canopy of brilliant red and yellow leaves, under sparkling sunshine ...
+My breathing settled into a smooth pattern. The pace held steady without strain. Splits landed exactly where they should. The 3:30 group became a small constellation ahead of me, close enough to trust, far enough to chase. The crowd along the sidewalks sent up a constant ripple of sound—claps, cowbells, names shouted off bibs, waves from strangers who suddenly felt less like strangers.
 
-This kind of sensory input is often dismissed as 'scenery,' but in a 4-hour endurance test, it's critical data. It serves as a powerful feedback loop, reminding you of the privilege of just being there, of being able to participate and enjoy the moment. We often take such *baseline conditions* for granted, but this environment was a reminder of how fortunate we are. This positive context undoubtedly contributed to the system running so smoothly.
+**And then came the first shout: “Go Grogu!”**
 
-For the first 20 miles, the plan executed flawlessly. The effort felt sustainable, the pace was consistent, and the 3:45 target seemed well within reach. This is the "happy path" of any project—when the design perfectly matches the initial operating environment. During this phase, I was also struck by the "community" aspect. The environment wasn't just the weather, the beautiful fall vibe; it was also the thousands of other runners and spectators. I observed genuine, selfless support: runners calling for medical aid for others, sharing resources, and offering encouragement. It's a powerful reminder that no system runs in isolation; it is always part of a larger, interdependent ecosystem. We were, for a few hours, a single, supportive community.
+A kid on the sidewalk had spotted the hat. Then another picked it up, louder. “Go Grogu! You got this!” They weren’t cheering for my pacing chart, they were cheering for a tiny green alien and whoever decided to run 26.2 miles wearing him. It was ridiculous and perfect. That silly connection threaded joy through the effort, made the whole thing feel lighter, more human. Not just numbers now—story, playfulness, community.
 
-### The Cascading Failure at Mile 20
+Through ten miles, fifteen, twenty, the world narrowed in the best possible way: steady breath, rhythmic footfalls, the reassuring presence of other runners pulling you along. For long stretches, it felt like the race was saying yes to everything I’d asked of it. Yes to the training. Yes to the target. Yes to the quiet dream of hitting that 3:30 with a little style.
 
-Even the most well-designed systems eventually face unexpected challenges. It's not that failure is inevitable, but complexity often brings surprises—and how we respond to them is what really matters. Around mile 20, the *happy path* ended abruptly. I experienced a severe, cascading failure: a painful cramp in my left leg, which quickly triggered a sympathetic cramp in my right. This immediately invalidated the initial plan. The pacer group, my key *dependency,* left me behind. This is the moment in any project where the initial design is proven insufficient against real-world conditions. My body's **runtime** was raising high-priority *exceptions*, and the original target (3:45) was suddenly off the table.
+**Then mile 20 arrived and tore up the script.**
 
-### Debugging in Production
+There was no warning flare, no cinematic music shift. One step landed fine. The next step detonated. A brutal cramp shot up my left calf, sudden and blinding. I flinched, adjusted, tried to run it off—my right calf seized in solidarity, locking just as hard. The effect was immediate and vicious, like someone had swapped my legs for rusted cables.
+Up ahead, the 3:30 pacer kept gliding, untouched, a metronome in motion. In the space of a few breaths, that sign started to drift away, taking the elegant version of my race with it.
 
-When a system fails under load, the immediate response becomes crucial. My body's initial feedback was a **panic** signal: *"I've trained very well, why is this happening? This is painful. Can I just quit?"* This is the equivalent of a system alert flood, where the initial data is confusing and overwhelming. The breakthrough was in how the 'mind' responded. Instead of ignoring the signals or forcing a 'reboot' (quitting), the response was to acknowledge and embrace the pain. The internal dialogue evolved. The mind didn't ignore the body, but embraced it. *"I know how you feel, but together, we can do this."*
+**Pain hit with coordinates.**
 
-This was a turning point: instead of ignoring the parts that were struggling, I had to listen to them and adapt. The strategy had to be refactored in real-time. The goal shifted from speed to resilience. The new definition of success was no longer "3:45"; it was "Finish." And interestingly, the external ecosystem provided unexpected support. Spectator cheers of "Go Grogu, you can do it!" served as a positive feedback. It was a surprising, non-clinical intervention that demonstrably "softened" the pain signals, allowing the refactored plan to proceed.
+Every step fired a sharp signal. The questions came as fast as the pulses: Dammn it! What did I miss? Did I misjudge? Is this where it ends? The crowd blurred for a moment. My brain grabbed for frustration, embarrassment, bargaining—anything but acceptance. It’s astonishing how quickly your inner narrative turns on you when the body stops cooperating.
 
-I crossed the finish line at just around the 4-hour mark. Reflecting on this run, several insights emerge that map directly to our work in building and maintaining complex systems. 
-- A Plan is a Forecast, Not a Guarantee. We design for the *happy path,* but we must build for resilience. My 3:45 plan was a good design, but it lacked a robust exception-handling strategy. The real test of a system isn't whether it fails, but how it behaves when it fails.
+**But the marathon doesn’t pause for a feelings meeting.**
 
-- Failure is a Data Point, Not a Verdict. The cramps were not a moral failing or a failure of training, but an emergent property of a complex system under high load. The key is to treat failure as feedback. A "blameless post-mortem" on my nutrition, hydration, pacing will inform the next "training iteration."
+I slowed. Tried to stretch. Tried to run again. The cramps snapped back with contempt. That was the moment of decision ... not dramatic from the outside, but absolutely pivotal on the inside. Keep chasing 3:30 on pride and shred what was left, or admit that the race had changed and decide, intentionally, to change with it.
+So I took stock.
+The clock hadn’t beaten me yet.
+My legs hurt like hell, but they still moved.
+The finish line still existed.
+The worst outcome wasn’t missing 3:30 ... it was letting ego drag the whole thing into a full collapse.
+I made a quieter promise: finish. However it looks. However long it takes. Just don’t surrender the last six miles to despair.
+The race shrank to tiny goals. Reach that tree. Now that sign. Run until the calves scream, walk before they fully revolt, then try again. Breathe deeper. Unclench the jaw. Keep my eyes up. Every adjustment felt clumsy, but with each small choice I clawed back a bit of control.
+And right in the middle of that mess, the world outside my pain broke through again.
+“Go Grogu! Keep going!”
+Another cluster of kids. Big smiles. Pointing at the hat like I’d stepped off a movie set. They had no idea that I was hanging on by a thread. They weren’t measuring splits or projecting finish times. They just saw someone still out there, still trying, and decided to cheer.
+It shouldn’t have mattered as much as it did.
+But that simple, earnest support slipped through the armor. I laughed—actually laughed—in the middle of those spasms, and the sound cracked the suffocating seriousness of the whole ordeal. The pain didn’t vanish ... it lost some of its authority. It became one part of the story instead of the entire headline.
 
-- Refactor The Definition of Success. When the initial target became impossible, the goal was reassessed. Shifting from "finish fast" to "finish strong" (or "finish at all") is a critical form of agility. Complaining is technical debt for the mind. Acknowledge the new state, form a new plan, and execute.
+**The final miles were rough, honest work.**
 
-- Embrace Feedback, Especially Painful Feedback. The worst thing my mind could have done was ignore the body's signals. The pain was just high-priority data. By acknowledging it, the "system" as a whole could collaborate on a new solution rather than fighting itself.
+Every stretch of road demanded a choice: give in to the spiral of “this isn’t what I planned” or focus on the stubborn fact that I was still moving forward. The body complained. The mind argued back. Time thickened. The finish felt both close and impossibly far ... until suddenly it wasn’t.
+The final turn came. The arch appeared. The noise swelled. I crossed the line at just about 4 hours, nowhere near the clean, clever outcome I’d mapped out with my watch and pacing charts. No PR, no triumphant cinematic moment. Just a deep, overwhelming rush of relief, gratitude, exhaustion, and a strange sense of fierce pride.
 
-In the end, the marathon, like software engineering, is an iterative process. You design, you execute, you encounter unexpected runtime errors, and you adapt. You learn from the system's behavior, and you feed that data back into the next 'release.' The value wasn't in the 3:45 I planned, but in the 4:00 I debugged. It was a worthwhile day to *get away from the screen* and have a true conversation with a very real, very complex, and ultimately, very resilient system.
+Because that second half told me more about myself than any perfect race ever could.
+I’d come in chasing control: neat targets, tidy execution, a story that lined up cleanly with the plan. What I walked away with was something messier and far more valuable ... the memory of standing inside the hard part and choosing, again and again, not to quit. The recollection of strangers yelling my name (DUYHARD). The echo of kids screaming for Grogu while my legs trembled. The realization that resilience doesn’t present itself with fanfare ... it shows up in ugly, determined steps when nobody would blame you for stopping.
+
+On Monday, the screens will return. The systems will behave or misbehave. I’ll go back to designing reliable platforms and arguing with abstractions. But some part of me will remember that morning in Raleigh: the cold air, the red trees, the sharp shock of mile 20, the ridiculous green alien, the decision to keep going when the goalposts moved.
+The logs from that run are written into my muscles now.
+
+And somewhere in that imperfect four hours, I found a version of success I trust more than any carefully planned 3:30.
 
 And life goes on ...
