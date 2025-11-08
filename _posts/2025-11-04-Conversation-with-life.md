@@ -1,6 +1,6 @@
 ---
 title: "Running the System: A Conversation With Life"
-date: 2025-11-04
+date: 2025-11-02
 author: "Duy Nguyen"
 theme: architect
 tags: ["Marathon", "Leadership"]
@@ -11,7 +11,7 @@ draft: false
 <img src="/assets/images/marathon25.jpg" alt="Marathon" style="float: left; margin: 0 20px 20px 0; max-width: 250px;">
 
 *Most days, my life is framed by glass and pixels.*
-I negotiate with code, services, diagrams, dashboards .. problems that submit to logic and version control. It’s satisfying in its own way, but gradually it teaches a quiet illusion, that endurance lives in the mind, that complexity is something you can model, that control is just a well-designed system away. Hours pass without my feet touching anything more demanding than an office floor.
+I negotiate with code, algorithms, services, diagrams, dashboards .. problems that submit to logic and version control. It’s satisfying in its own way, but gradually it teaches a quiet illusion, that endurance lives in the mind, that complexity is something you can model, that control is just a well-designed system away. Hours pass without my feet touching anything more demanding than an office floor.
 
 *Then race day arrives and rips that illusion clean off.*
 
