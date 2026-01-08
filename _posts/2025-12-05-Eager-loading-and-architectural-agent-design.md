@@ -13,7 +13,7 @@ One thing that's apparent is our industry is in a fervent rush to scale AI agent
 
 The authors describe a real and pressing challenge: as an agent is given access to hundreds or thousands of tools, the sheer volume of their definitions (their schemas, parameters, and descriptions) overloads the LLM's context window. This is a problem every team building agent at scale has encountered. Their proposed solution is to give the agent a single "code execution" tool, which provides a virtual filesystem. The agent can then ls this filesystem to discover tools, cat a file to read a tool's documentation, and finally write and execute code (e.t., TypeScript) to call it.
 
-This is a clever piece of engineering. And yet, my feeling is that this solution—a sandboxed code interpreter with a virtual filesystem—is a profoundly complex workaround for a problem that is largely self-inflicted. The challenge isn't tool-use itself, but a naive architectural choice that MCP's initial design seems to encourage: Eager Loading.
+This is a clever piece of engineering. And yet, my feeling is that this solution, a sandboxed code interpreter with a virtual filesystem, is a profoundly complex workaround for a problem that is largely self-inflicted. The challenge isn't tool-use itself, but a naive architectural choice that MCP's initial design seems to encourage: Eager Loading.
 
 ### The Self-Inflicted Wound
 
