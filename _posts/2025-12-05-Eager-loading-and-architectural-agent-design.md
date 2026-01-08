@@ -9,7 +9,7 @@ categories: ["AI Architecture", "Leadership"]
 draft: false
 ---
 
-One this that's apparent is our industry is in a fervent rush to scale AI agents, a rush that sometimes leads us to invent complex new abstractions before we've fully interrogated our base assumptions. [A recent article from Anthropic on code execution within their Model Context Protocol (MCP)](https://www.anthropic.com/engineering/code-execution-with-mcp) is a fascinating case in point.
+One thing that's apparent is our industry is in a fervent rush to scale AI agents, a rush that sometimes leads us to invent complex new abstractions before we've fully interrogated our base assumptions. [A recent article from Anthropic on code execution within their Model Context Protocol (MCP)](https://www.anthropic.com/engineering/code-execution-with-mcp) is a fascinating case in point.
 
 The authors describe a real and pressing challenge: as an agent is given access to hundreds or thousands of tools, the sheer volume of their definitions (their schemas, parameters, and descriptions) overloads the LLM's context window. This is a problem every team building agent at scale has encountered. Their proposed solution is to give the agent a single "code execution" tool, which provides a virtual filesystem. The agent can then ls this filesystem to discover tools, cat a file to read a tool's documentation, and finally write and execute code (e.t., TypeScript) to call it.
 
