@@ -1,5 +1,7 @@
 title: "Spirited Engineering"
 description: "Thoughts on AI, Platforms Engineering, Quantumn Computing, And Life."
+url: "https://spiritedengineering.net"
+baseurl: ""
 theme: minima
 author: "Duy Nguyen"
 favicon: "/favicon.ico"
