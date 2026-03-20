@@ -404,6 +404,74 @@ pre code {
   letter-spacing: 0.04em;
 }
 
+/* ---- Syntax Highlighting (Rouge / GitHub Dark palette) ---- */
+.highlight {
+  background: var(--code-bg);
+  border: 1px solid var(--border);
+  border-radius: 3px;
+  margin: 1.75rem 0;
+  overflow-x: auto;
+}
+
+.highlight pre {
+  background: transparent;
+  border: none;
+  border-radius: 0;
+  margin: 0;
+  padding: 1.25rem 1.5rem;
+}
+
+.highlight .c,
+.highlight .cm,
+.highlight .c1,
+.highlight .cs  { color: #6a737d; font-style: italic } /* Comments */
+.highlight .cp   { color: #6a737d }                    /* Comment.Preproc */
+.highlight .k,
+.highlight .kc,
+.highlight .kd,
+.highlight .kn,
+.highlight .kp,
+.highlight .kr   { color: #ff7b72 }                    /* Keywords */
+.highlight .kt   { color: #ffa657 }                    /* Keyword.Type */
+.highlight .o,
+.highlight .ow   { color: #ff7b72 }                    /* Operators */
+.highlight .m,
+.highlight .mb,
+.highlight .mf,
+.highlight .mh,
+.highlight .mi,
+.highlight .mo,
+.highlight .il   { color: #79c0ff }                    /* Numbers */
+.highlight .s,
+.highlight .sa,
+.highlight .sb,
+.highlight .sc,
+.highlight .dl,
+.highlight .s2,
+.highlight .se,
+.highlight .sh,
+.highlight .si,
+.highlight .sx,
+.highlight .sr,
+.highlight .s1,
+.highlight .ss   { color: #a5d6ff }                    /* Strings */
+.highlight .sd   { color: #a5d6ff; font-style: italic } /* String.Doc */
+.highlight .na   { color: #79c0ff }                    /* Name.Attribute */
+.highlight .nb   { color: #e3b341 }                    /* Name.Builtin */
+.highlight .nc,
+.highlight .ne,
+.highlight .nn   { color: #ffa657 }                    /* Name.Class/Exception/Namespace */
+.highlight .no,
+.highlight .nl,
+.highlight .nv   { color: #79c0ff }                    /* Name.Constant/Label/Variable */
+.highlight .nd   { color: #d2a8ff }                    /* Name.Decorator */
+.highlight .nf   { color: #d2a8ff }                    /* Name.Function */
+.highlight .nt   { color: #7ee787 }                    /* Name.Tag */
+.highlight .ni   { color: #e8e8e8 }                    /* Name.Entity */
+.highlight .gd   { color: #ffa198 }                    /* Generic.Deleted */
+.highlight .gi   { color: #56d364 }                    /* Generic.Inserted */
+.highlight .ge   { font-style: italic }                /* Generic.Emph */
+
 /* ---- Responsive ---- */
 @media (max-width: 600px) {
   :root { --pad: 1rem; }

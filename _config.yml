@@ -12,6 +12,13 @@ favicon: "/favicon.ico"
 # Optional: cleaner permalinks (classic look)
 permalink: /:year/:month/:title/
 
+markdown: kramdown
+kramdown:
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    block:
+      line_numbers: false
+
 # Navigation links that appear in the top header
 header_pages:
   - index.md 
