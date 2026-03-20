@@ -1,0 +1,19 @@
+---
+layout: default
+---
+
+<div class="home-intro">
+  {{ content }}
+</div>
+
+{%- if site.posts.size > 0 -%}
+<p class="post-list-label">Writing</p>
+<ul class="post-list">
+  {%- for post in site.posts -%}
+  <li>
+    <time class="post-meta">{{ post.date | date: "%Y %b" }}</time>
+    <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+  </li>
+  {%- endfor -%}
+</ul>
+{%- endif -%}

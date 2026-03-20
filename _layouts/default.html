@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {%- seo -%}
+  <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
+  {%- feed_meta -%}
+  {%- if site.favicon -%}
+  <link rel="icon" href="{{ site.favicon | relative_url }}">
+  {%- endif -%}
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="wrapper">
+      <a class="site-title" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+      <nav class="site-nav">
+        {%- for p in site.header_pages -%}
+          {%- assign node = site.pages | where: "path", p | first -%}
+          {%- if node.title != "Home" -%}
+            <a href="{{ node.url | relative_url }}">{{ node.title | escape }}</a>
+          {%- endif -%}
+        {%- endfor -%}
+      </nav>
+    </div>
+  </header>
+
+  <main class="page-content" aria-label="Content">
+    <div class="wrapper">
+      {{ content }}
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrapper">
+      <span class="footer-left">{{ site.title | escape }}</span>
+      <span class="footer-right">{{ site.author }}</span>
+    </div>
+  </footer>
+
+</body>
+</html>
