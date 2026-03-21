@@ -4,6 +4,7 @@ date: 2026-03-20
 author: "Duy Nguyen"
 tags: ["AI", "Platform Engineering", "MLOps", "Generative AI", "Book"]
 description: "Why I wrote Platform Engineering for AI, and why the platform, not the model, is where AI projects are really won or lost."
+image: /assets/images/leader-reader.jpg
 categories: ["Platform Engineering", "AI Architecture", "Books"]
 draft: false
 ---
