@@ -19,7 +19,7 @@ The instinct, when you hit this wall, is to reach for more tooling. A better orc
 
 > A platform is a group of technologies used as a base upon which other applications, processes, or technologies are developed.
 
-I have been sitting with this realization for a long time, through work at IBM, Red Hat, LTK, and Disney, across systems spanning enterprise mobile platforms, distributed cloud infrastructure, and machine learning at scale. The thread running through all of it has been consistent: the models are rarely where things fall apart. What lives underneath the intelligence, the data pipelines and infrastructure, the model lifecycle and observability, the governance and cost accountability, the team structures that hold it all together, that is what determines whether AI delivers on its potential or quietly recedes into the archaeology of failed initiatives.
+I have been sitting with this realization for a long time, across roles at large  organizations, through systems spanning enterprise mobile platforms, distributed cloud infrastructure, and machine learning at scale. The thread running through all of it has been consistent: the models are rarely where things fall apart. What lives underneath the intelligence, the data pipelines and infrastructure, the model lifecycle and observability, the governance and cost accountability, the team structures that hold it all together, that is what determines whether AI delivers on its potential or quietly recedes into the archaeology of failed initiatives.
 
 That distance between potential and production is what this book tries to close.
 
