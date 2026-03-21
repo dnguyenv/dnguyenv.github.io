@@ -8,7 +8,7 @@ categories: ["Platform Engineering", "AI Architecture", "Books"]
 draft: false
 ---
 
-<img src="/assets/images/book-pic.jpg" alt="Platform Engineering for AI" style="float: left; margin: 0 20px 20px 0; max-width: 250px;">
+<img src="/assets/images/leader-reader.jpg" alt="Platform Engineering for AI" style="float: left; margin: 0 20px 20px 0; max-width: 250px;">
 
 There is a moment every engineer working on AI knows intimately. You have built something that genuinely works, a prototype that surprises even you, a demo that stills the room. The model is sharp, the results are persuasive, and the business case feels almost self-evident. Then you try to put it into production.
 
