@@ -8,6 +8,8 @@ categories: ["Platform Engineering", "AI Architecture", "Books"]
 draft: false
 ---
 
+<img src="/assets/images/book-pic.jpg" alt="Platform Engineering for AI" style="float: left; margin: 0 20px 20px 0; max-width: 250px;">
+
 There is a moment every engineer working on AI knows intimately. You have built something that genuinely works, a prototype that surprises even you, a demo that stills the room. The model is sharp, the results are persuasive, and the business case feels almost self-evident. Then you try to put it into production.
 
 What follows has a particular quality of disillusionment. The pipeline that ran cleanly on your laptop strains and fractures under real data volumes. The model that performed so well in the notebook begins drifting in ways nobody anticipated. The data contract you believed you had with the upstream team proves to have been a handshake at best, a polite fiction that dissolves the moment any real weight rests on it. Compliance surfaces questions you have not yet thought to ask. Costs metastasize. Other teams want to build on what you made, but there is nothing to hand them, just a tangle of scripts, a notebook, and tacit knowledge that has never been written down.
