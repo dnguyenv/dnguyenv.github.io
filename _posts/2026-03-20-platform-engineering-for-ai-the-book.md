@@ -11,9 +11,9 @@ draft: false
 
 <img src="/assets/images/leader-reader.jpg" alt="Platform Engineering for AI" style="float: left; margin: 0 20px 20px 0; max-width: 250px;">
 
-There is a moment every engineer working on AI knows intimately. You've built something that genuinely "works", stills the room, surprises even you. The results are persuasive, and the business case feels almost self-evident. Then you try to put it into production.
+If you have spent enough time building with machine learning, you know what comes next. Something works, genuinely works, and the business case feels almost self-evident. Then you try to put it into production.
 
-What follows has a particular quality of disillusionment. The pipeline that ran cleanly on your laptop strains and fractures under real data volumes. The model that performed so well in the notebook begins drifting in ways nobody anticipated. The data contract you believed you had with the upstream team proves to have been a handshake at best, a polite fiction that dissolves the moment any real weight rests on it. Compliance surfaces questions you have not yet thought to ask. Costs metastasize. Other teams want to build on what you made, but there is nothing to hand them, just a tangle of scripts, a notebook, and tacit knowledge that has never been written down.
+What follows is its own particular kind of disillusionment. The pipeline that ran cleanly on your laptop strains and fractures under real data volumes. Your model begins drifting in ways nobody anticipated, and the data contract you believed you had with the upstream team proves to have been a handshake at best, a polite fiction that dissolves the moment any real weight rests on it. Compliance surfaces questions you have not yet thought to ask. Costs metastasize. Other teams want to build on what you made, but there is nothing to hand them, just a tangle of scripts, a notebook, and tacit knowledge that has never been written down.
 
 The instinct, when you hit this wall, is to reach for more tooling. A better orchestration framework. A more capable feature store. A richer monitoring dashboard. I understand the reflex. But the wall is not a tooling problem, and it is not even primarily a technology problem. It is a *platform* problem. And platforms are not assembled from better components. They are thought through and designed.
 
