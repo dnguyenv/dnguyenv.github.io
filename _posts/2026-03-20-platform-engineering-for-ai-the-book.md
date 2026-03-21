@@ -23,7 +23,7 @@ I have been sitting with this realization for a long time, through work at IBM, 
 
 That distance between potential and production is what this book tries to close.
 
-[*Platform Engineering for AI*](https://lnkd.in/eAGrEweh) is the book I kept reaching for and not finding. It does not open with a model. It opens with the ground underneath one, from the conviction that most AI projects do not fail because the model was wrong. They fail because the foundation was never constructed. The scaffolding that should have been there, repeatable, governed, observable, cost-aware, was treated as something to figure out after the demo had already impressed someone with budget authority.
+[*Platform Engineering for AI*](https://www.amazon.com/Platform-Engineering-Artificial-Intelligence-infrastructure/dp/9365897432) is the book I kept reaching for and not finding. It does not open with a model. It opens with the ground underneath one, from the conviction that most AI projects do not fail because the model was wrong. They fail because the foundation was never constructed. The scaffolding that should have been there, repeatable, governed, observable, cost-aware, was treated as something to figure out after the demo had already impressed someone with budget authority.
 
 The premise may sound contained, but its implications run far. If you want AI that is secure, operationally sound, and built to outlast a single product cycle, you have to approach it as a platform discipline. Not purely a machine learning exercise, not merely an infrastructure concern, but a platform discipline, one that binds data engineering, ML operations, infrastructure, governance, and team design into something coherent and intentional.
 
@@ -39,6 +39,6 @@ I did not write this as a universal blueprint, because no such thing survives co
 
 If you are a platform engineer, an ML engineer, an architect, or a technical leader trying to make AI function not in a notebook or a controlled demo but in production, at scale, under real governance, this was written with you in mind. I hope it compresses some of the distance between where you are and where you are trying to arrive.
 
-It took a long time to write. But then, the problems it concerns took even longer to understand. If any of this resonates, you can grab a copy [here](https://lnkd.in/eAGrEweh).
+It took a long time to write. But then, the problems it concerns took even longer to understand. If any of this resonates, you can grab a copy [here](https://www.amazon.com/Platform-Engineering-Artificial-Intelligence-infrastructure/dp/9365897432).
 
 And life goes on...
