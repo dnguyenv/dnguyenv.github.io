@@ -12,7 +12,7 @@ draft: false
 
 *Nineteen miles. Then 26.2. Then 13.1. Three consecutive Sundays.*
 
-Somewhere around the second week, my wife stopped asking "Are you sure?" and started just handing me the ice pack before I asked. The body remembers what you put it through, and mine was keeping a very detailed ledger. But I wanted to see what would happen if I stacked three races back to back. Not because it was wise. Because something in me needed to test a suspicion I have carried for years, that the conversation you have with yourself under sustained pressure is the most honest conversation you will ever have.
+Somewhere around the second week, the ice packs became part of the evening routine and the soreness never fully left before the next Sunday arrived. The body remembers what you put it through, and mine was keeping a very detailed ledger. But I wanted to see what would happen if I stacked three races back to back. Not because it was wise. Because something in me needed to test a suspicion I have carried for years, that the conversation you have with yourself under sustained pressure is the most honest conversation you will ever have.
 
 The 19-mile challenge came first. It sits in an awkward no-man's-land, that distance. Not a half, not a full, just long enough to humble you without the gravity of a marathon. I treated it as a rehearsal, a chance to shake loose the nerves and remind my legs what race-day concrete feels like. The body cooperated. The mind stayed quiet. I filed it away as a prologue.
 
