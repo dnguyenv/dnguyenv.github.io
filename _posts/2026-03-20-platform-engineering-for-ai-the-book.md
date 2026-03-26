@@ -1,6 +1,6 @@
 ---
 title: "The Platform Underneath the Intelligence"
-date: 2026-03-20
+date: 2026-02-20
 author: "Duy Nguyen"
 tags: ["AI", "Platform Engineering", "MLOps", "Generative AI", "Book"]
 description: "Why I wrote Platform Engineering for AI, and why the platform, not the model, is where AI projects are really won or lost."
