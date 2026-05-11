@@ -8,11 +8,11 @@ categories: ["Reflection", "Nature"]
 draft: false
 ---
 
-*In the middle of so much pressure to deliver fast, to always be first, racing every second, I decided to unplug.*
+*In the middle of so much pressure to deliver fast, to always be first, to race every second against some invisible clock that never stops and never tells you what you are racing toward, I decided to unplug.*
 
 <img src="/assets/images/tree.png" alt="Appalachian Trail" style="float: left; margin: 0 20px 20px 0; max-width: 250px;">
 
-One forgets, living inside the hum of things, that the hum is not the world. It accumulates so gradually, this noise, this ceaseless generating and responding and racing toward what is next, that at some point it ceases to feel like noise at all and begins to feel like air, like the necessary medium through which one moves. I had been breathing it for months. Perhaps longer. And then one morning I drove to Virginia with the people I love most, and we walked into the mountains, and the silence there was so full, so textured, so alive with its own ancient conversation that I understood, with the force of something physical, how starved I had been.
+One forgets, living inside the hum of things, that the hum is not the world. It accumulates so gradually, this noise, this ceaseless generating and responding and racing toward what is next, that at some point it ceases to feel like noise at all and begins to feel like air, like the necessary medium through which one moves. I had been breathing it for years. Perhaps longer. And then one early morning, I drove to Virginia with the people I love most, and we walked into the mountains. The silence there was so full, so textured, so alive with its own ancient conversation that I understood, with the force of something physical, how starved I had been.
 
 The Appalachian received us with rain. Not the punishing kind but something gentler, almost tentative, as though the sky were reaching down to touch our faces and see if we were real. It fell on the leaves and made them speak, a thousand small voices murmuring at once, and the smell that rose from the earth was so rich and dark and layered that it seemed to contain whole seasons within it, autumns folded into springs folded into mornings I had never been awake for. I felt my attention, that cramped and narrowed thing I had been pointing like a beam at screens for weeks, begin to widen. To soften. To remember what it was like to receive rather than to seek.
 
@@ -33,6 +33,6 @@ What I carried down from that mountain was not a lesson, exactly, not something 
 
 I will go back to the noise. I always go back. To the race, to the proving, to the daily effort of convincing the world and myself that I am enough. I chose that life. But I choose it now with something loosened in me, some gentleness toward my own smallness that was not there before. So much of what I call mine was borrowed. The air in my lungs. The language in my thoughts. The very earth I stood on, which held me only because that is what earth does, without asking whether I deserved to be held.
 
-We are no different, you and I, from those ponies in the cloud. Briefly here. Borrowing this air. Walking the same ridge in the same fog for a little while. And the kindness we offer each other along the way is the only warmth we get to leave behind.
+We are no different, you and I, from those ponies in the cloud. Briefly here. Borrowing this air. Walking the same ridge in the same fog for a little while. And the kindness we offer each other along the way is the only warmth we get to leave behind. We are such little notes in a symphony that was already playing when we arrived, and will go on playing long after the fog takes us back.                                          
 
 And life goes on ...
