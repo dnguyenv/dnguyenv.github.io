@@ -8,7 +8,7 @@ categories: ["Reflection", "Nature"]
 draft: false
 ---
 
-*In the middle of so much pressure to deliver fast, to always be first, to race every second against some invisible clock that never stops and never tells you what you are racing toward, I decided to unplug.*
+*In the middle of so much pressure to always be first, to race every second against some invisible clock that never stops and never tells you what you are racing toward, I decided to unplug.*
 
 <img src="/assets/images/tree.png" alt="Appalachian Trail" style="float: left; margin: 0 20px 20px 0; max-width: 250px;">
 
