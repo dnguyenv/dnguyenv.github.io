@@ -10,7 +10,7 @@ draft: false
 
 ***What's in the catalog (and what isn't)***
 
-Exploring a new frontier model used to mean paying for it, usually through the same OpenAI or Anthropic billing relationship that already eats an uncomfortable share of a team's monthly spend. NVIDIA's NIM catalog at [build.nvidia.com](https://build.nvidia.com) has been quietly changing that.
+Exploring a new frontier model used to mean paying for it, usually through the same OpenAI or Anthropic billing relationship that already eats an uncomfortable share of a team's monthly spend. NVIDIA's NIM catalog at [build.nvidia.com](https://build.nvidia.com) has been quietly changing that. Hopefully it will continue doing so for a long time. 
 NIM is 2 things. A packaging format for self-hosting inference on NVIDIA hardware, which matters if you're running your own infrastructure. And a hosted catalog you can call right now through a single OpenAI-compatible endpoint at `integrate.api.nvidia.com/v1`, free tier included.
 The free tier runs on request-per-minute ceilings. The cap resets. You can do serious evaluation work within those limits without worrying about a budget draining or a trial clock ticking.
 The catalog holds over 100 models: NVIDIA's Nemotron family, the major frontier labs, Meta, Mistral, Qwen, and recent open-weights releases from US providers.
