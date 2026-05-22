@@ -38,13 +38,13 @@ client = OpenAI(
 )
 response = client.chat.completions.create(
     model="nvidia/nemotron-3-super-120b-a12b",
-    messages=[{"role": "user", "content": "Explain hybrid Mamba-Transformer in one paragraph."}],
+    messages=[{"role": "user", "content": "Explain Lambda architecture in a short paragraph."}],
 )
 print(response.choices[0].message.content)
 ```
 For the prompt above, against `nvidia/nemotron-3-super-120b-a12b`, the model produces a "short" technical summary opening along the lines of:
 
-> _Hybrid Mamba-Transformer architectures integrate the state space model (SSM) core of Mamba with the attention mechanisms of Transformers to leverage their complementary strengths in a single model. Typically, this involves interleaving Mamba layers, which excel at efficient linear-time processing of extremely long sequences and capturing long-range dependencies, with traditional attention layers, which are superior at precise in-context retrieval and handling complex reasoning tasks. By alternating these components, the hybrid model overcomes the Transformer’s quadratic computational complexity for long contexts and Mamba’s relative weakness in discrete information recall, resulting in an architecture that achieves a powerful balance of linear efficiency and high-fidelity contextual understanding._
+> _Lambda architecture is a data-processing pattern designed to handle massive quantities of data by balancing latency and accuracy through three distinct layers. The **batch layer** serves as the system of record, continuously recomputing a master dataset to provide the most accurate, immutable views, albeit with high latency. To compensate for this delay, the **speed layer** processes only the recent, incremental data in real-time to generate low-latency, approximate views. Finally, the **serving layer** merges the outputs from both the batch and speed layers, enabling queries that combine historical accuracy with up-to-the-moment freshness._
 
 The `response` object carries more than just the content string. `usage` gives you prompt and completion token counts. `model` tells you the served identifier, which matters when NVIDIA routes you to a versioned underlying weight. `choices[0].finish_reason` catches truncations. For 1st class exploration the content string is usually enough.
 
