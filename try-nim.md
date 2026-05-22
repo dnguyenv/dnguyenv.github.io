@@ -43,7 +43,7 @@ so the only host that ever sees your key is NVIDIA.
   <div class="trynim-row">
     <label for="trynim-prompt" class="trynim-label">Prompt</label>
     <textarea id="trynim-prompt" class="trynim-input trynim-textarea"
-              placeholder="Explain hybrid Mamba-Transformer in one paragraph."
+              placeholder="Explain Lambda architecture in a short paragraph."
               rows="4" spellcheck="false"></textarea>
   </div>
 
