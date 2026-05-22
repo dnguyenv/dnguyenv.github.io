@@ -273,7 +273,7 @@ so the only host that ever sees your key is NVIDIA.
     var key = (keyInput.value || '').trim();
     var model = modelSel.value;
     var prompt = (promptEl.value || '').trim() ||
-      'Explain hybrid Mamba-Transformer in one paragraph.';
+      'Explain Lambda architecture in a short paragraph.';
     var text = mode === 'python'
       ? pythonSnippet(key, model, prompt)
       : curlCommand(key, model, prompt);
