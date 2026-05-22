@@ -232,6 +232,8 @@ a:hover {
   font-size: 0.97rem;
   line-height: 1.85;
   text-align: justify;
+  hyphens: auto;
+  -webkit-hyphens: auto;
 }
 
 .post-content h2 {
@@ -500,9 +502,5 @@ pre code {
 
   .site-title {
     font-size: 0.78rem;
-  }
-
-  .post-content p {
-    text-align: left;
   }
 }

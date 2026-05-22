@@ -8,7 +8,7 @@ categories: ["AI"]
 draft: false
 ---
 
-# What's in the catalog (and what isn't)
+***What's in the catalog (and what isn't)***
 
 Exploring a new frontier model used to mean paying for it, usually through the same OpenAI or Anthropic billing relationship that already eats an uncomfortable share of a team's monthly spend. NVIDIA's NIM catalog at [build.nvidia.com](https://build.nvidia.com) has been quietly changing that.
 NIM is 2 things. A packaging format for self-hosting inference on NVIDIA hardware, which matters if you're running your own infrastructure. And a hosted catalog you can call right now through a single OpenAI-compatible endpoint at `integrate.api.nvidia.com/v1`, free tier included.
@@ -25,7 +25,7 @@ A practical warning before you go hunting for identifiers: a lot of the names ci
 - `llama-3.3-70b-instruct` is the baseline everything else has to beat.
 Because the endpoint adheres to the same chat-completions contract every major inference client already supports, your existing tooling mostly works without modification. LangChain, LlamaIndex, Vercel AI SDK, Cursor, Zed: all of them. Change the base URL, change the key, and you're in.
 
-# First call in under 60 seconds
+***First call in under 60 seconds***
 
 Getting to a first response takes ~ 60 seconds. Sign in at [build.nvidia.com](https://build.nvidia.com), create a key in the API keys panel, set it as `NVIDIA_API_KEY` in your shell, and run this:
 ```python
@@ -43,13 +43,15 @@ response = client.chat.completions.create(
 print(response.choices[0].message.content)
 ```
 For the prompt above, against `nvidia/nemotron-3-super-120b-a12b`, the model produces a "short" technical summary opening along the lines of:
+
 > _Hybrid Mamba-Transformer architectures integrate the state space model (SSM) core of Mamba with the attention mechanisms of Transformers to leverage their complementary strengths in a single model. Typically, this involves interleaving Mamba layers, which excel at efficient linear-time processing of extremely long sequences and capturing long-range dependencies, with traditional attention layers, which are superior at precise in-context retrieval and handling complex reasoning tasks. By alternating these components, the hybrid model overcomes the Transformer’s quadratic computational complexity for long contexts and Mamba’s relative weakness in discrete information recall, resulting in an architecture that achieves a powerful balance of linear efficiency and high-fidelity contextual understanding._
+
 The `response` object carries more than just the content string. `usage` gives you prompt and completion token counts. `model` tells you the served identifier, which matters when NVIDIA routes you to a versioned underlying weight. `choices[0].finish_reason` catches truncations. For 1st class exploration the content string is usually enough.
 
-# Before real traffic hits it
+***Before real traffic hits it***
 
 Before you route real traffic through the endpoint, a few things are worth knowing. Rate limits have moved at least once since the platform launched, so check your own dashboard rather than any figure quoted in a blog post (including this one). Latency at the median is fine, but the tail is wider than paid first-party endpoints, and that compounds in agentic workflows chaining many sequential calls while someone waits. NVIDIA's terms also govern what they can do with your prompts and completions, and those aren't necessarily the same commitments your existing provider made in an enterprise contract. In a regulated context, compare the data retention language, not the price per token.
-For readers who'd rather skip the Python REPL, I built a companion page at [/try-nim/](/try-nim/). It doesn't call the NIM API directly. `integrate.api.nvidia.com` doesn't return the CORS headers a browser needs for a cross-origin request, and routing your key through a third-party proxy is the kind of shortcut that becomes a security incident eventually. The page takes your key, your chosen model, and your prompt, and assembles a copy-paste-ready curl or Python command you can run yourself. Your key stays in your browser.
+For readers who'd rather skip the Python REPL, I built a companion page at [/try-nim/](/try-nim/). It doesn't call the NIM API. `integrate.api.nvidia.com` doesn't return the CORS headers a browser needs for a cross-origin request, and routing your key through a 3rd party proxy is the kind of shortcut that becomes a security incident eventually. The page instead takes your key, your chosen model, and your prompt, assembles a copy-paste-ready curl or Python command you can run yourself. Your key stays in your browser.
 The free tier itself is the least interesting part. Companies give inference away for strategic reasons all the time, and NVIDIA's aren't hard to infer. What matters more is where the cost actually shifted. Evaluation is now close to free, which changes how sustainable the "we haven't tested that model yet" answer actually is. In my experience, most conversations that stall on model adoption are still running on cost intuitions formed when frontier inference was genuinely expensive. Those intuitions outlast the price drops that should have revised them. NIM makes that lag harder to defend.
 
 And life goes on...
