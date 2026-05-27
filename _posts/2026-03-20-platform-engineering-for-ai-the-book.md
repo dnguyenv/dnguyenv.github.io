@@ -11,34 +11,66 @@ draft: false
 
 <img src="/assets/images/leader-reader.jpg" alt="Platform Engineering for AI" style="float: left; margin: 0 20px 20px 0; max-width: 250px;">
 
-If you have spent enough time building with machine learning, you know what comes next. Something works, genuinely works, and the business case feels almost self-evident. Then you try to put it into production.
+If you have spent enough time building ML systems, you know the script. Something works. Then you try to ship it.
 
-What follows is its own particular kind of disillusionment. The pipeline that ran cleanly on your laptop strains and fractures under real data volumes. Your model begins drifting in ways nobody anticipated, and the data contract you believed you had with the upstream team proves to have been a handshake at best, a polite fiction that dissolves the moment any real weight rests on it. Compliance surfaces questions you have not yet thought to ask. Costs metastasize. Other teams want to build on what you made, but there is nothing to hand them, just a tangle of scripts, a notebook, and tacit knowledge that has never been written down.
+The laptop pipeline cracks under real volumes. The model drifts. The data contract you thought you had with the upstream team turns out to be a handshake at best, a polite fiction that dissolves the first time real weight lands on it. Compliance asks questions you had not thought to ask. Costs blow past anything the original proposal anticipated. Other teams want to build on what you made and there is nothing to hand them. Just scripts, a notebook, knowledge living in one person's head.
 
-The instinct, when you hit this wall, is to reach for more tooling. A better orchestration framework, a richer feature store, another monitoring dashboard. I understand the reflex. But the wall is not a tooling problem, and it is not even primarily a technology problem. It is a *platform* problem. And platforms are not assembled from better components. They are thought through and designed.
+The instinct, when you hit this wall, is to reach for more tooling. A better orchestration framework. A more capable feature store. A richer monitoring dashboard. I understand the reflex. I have followed it myself more than once. But the wall is not a tooling problem, and it is not even primarily a technology problem. It is a platform problem. And platforms are not assembled from better components. They are thought through and designed.
 
 > A platform is a group of technologies used as a base upon which other applications, processes, or technologies are developed.
 
-I have been sitting with this realization for a long time, across roles at large  organizations, through systems spanning enterprise mobile platforms, distributed cloud infrastructure, and machine learning at scale. The thread running through all of it has been consistent: the models are rarely where things fall apart. What lives underneath the intelligence, the data pipelines and infrastructure, the model lifecycle and observability, the governance and cost accountability, the team structures that hold it all together, that is what determines whether AI delivers on its potential or quietly recedes into the archaeology of failed initiatives.
+I have been sitting with this for years. Across mobile platforms, distributed cloud systems, ML at scale. The same pattern surfaces every time. What lives underneath the model is what decides whether AI lands or quietly recedes into the archaeology of failed initiatives. The pipelines. The lifecycle management. The observability. The governance. The cost accountability. The team structures holding it all together.
 
-That distance between potential and production is what this book tries to close.
+That gap between potential and production is what the book is about.
 
-[*Platform Engineering for AI*](https://www.amazon.com/Platform-Engineering-Artificial-Intelligence-infrastructure/dp/9365897432) is the book I kept reaching for and not finding. It does not open with a model. It opens with the ground underneath one, from the conviction that most AI projects do not fail because the model was wrong. They fail because the foundation was never constructed. The scaffolding that should have been there, repeatable, governed, observable, cost-aware, was treated as something to figure out after the demo had already impressed someone with budget authority.
+[*Platform Engineering for AI*](https://www.amazon.com/Platform-Engineering-Artificial-Intelligence-infrastructure/dp/9365897432) is the book I kept reaching for and not finding. So I wrote it.
 
-The premise may sound contained, but its implications run far. If you want AI that is secure, operationally sound, and built to outlast a single product cycle, you have to approach it as a platform discipline. Not purely a machine learning exercise, not merely an infrastructure concern, but a platform discipline, one that binds data engineering, ML operations, infrastructure, governance, and team design into something that actually holds together.
+It opens with the ground underneath the model. Most AI projects fail not because the model was inadequate, but because the foundation was never built. The repeatable, governed, observable, cost-aware infrastructure gets treated as something to figure out later, after the demo has already won someone over. Later rarely arrives, and when it does the technical debt has already metastasized into something that resists remediation.
 
-In practice, this is less about the tools you choose than about the way you think. Treat data pipelines as products with genuine owners, defined service levels, and governance woven in from the beginning, not as disposable scripts that somehow become load-bearing walls. Compose ML pipelines from discrete, testable components that can be versioned and replaced without requiring someone to hold their breath, so the system can actually evolve. Bring to model operations the same engineering discipline you would apply to any serious production service: structured deployment patterns, statistical drift monitoring, automated retraining, staged rollout and rollback. Not because it is aesthetically cleaner, but because production AI without these properties is fragile by construction.
+The premise is small. The implications are not.
 
-And then there are the things that rarely attract much attention but tend to be quietly decisive. Financial governance for AI workloads, for one, because unconstrained accelerator spend has a way of ending programs before they find their footing. Observability matters too, but only if conceived at the outset rather than bolted on after an incident. Infrastructure as Code applied to AI environments means the compute substrate is as reproducible and auditable as the software it carries. And then there is team composition, perhaps the least technical subject in the book but, in my experience, among the most consequential. The most thoughtfully engineered platform will still underperform if the team around it is misaligned, too narrowly drawn, or organized in ways that quietly recreate the very silos it was meant to dissolve.
+If you want AI that is secure, does not fall over in production, and outlasts a single product cycle, you have to treat it as a platform discipline. The kind that pulls data engineering, ML ops, infrastructure, governance, and team design into a coherent system that actually holds under pressure.
 
-The chapter I spent the most time on covers generative AI and agentic systems, because the architectural shift there is genuine and the demands it places on the platform are qualitatively different from classical ML. Moving from prediction to generation enlarges the surface area you have to govern: prompt templates, retrieval configurations, vector indexes, and model adapters all become versioned artifacts requiring the same lifecycle discipline as any other code. Agentic workflows, where models orchestrate their own actions through tool-use and agent-to-agent protocols, introduce failure modes that conventional ML monitoring was simply not conceived to catch. Retrieval-Augmented Generation presents itself as a retrieval problem until you are operating it at scale, at which point you discover it is an infrastructure problem, a latency problem, a freshness problem, and a content safety problem, all at once. A platform designed with foresight absorbs this complexity. One assembled without it amplifies the complexity instead.
+In practice, this is more about how you think than what you buy.
 
-What I hope comes through, beneath the technical content, is something I have arrived at not as a theoretical position but as a conclusion drawn from years of watching both outcomes: platform engineering is not the overhead you accept in order to do AI. It is the condition under which AI becomes worth doing. A well-engineered platform does not constrain teams, it liberates them. The governed path becomes the expedient one. Isolated experiments become composable, reusable capabilities. Governance stops being a source of friction and starts functioning as the architecture of trust. And the people doing the real model-level work finally have a stable enough foundation to actually take risks.
+Treat pipelines as products. Real owners. Defined service levels. Governance conceived at the outset. Otherwise the disposable script becomes permanent infrastructure and nobody notices until it fractures under load.
 
-I did not write this as a universal blueprint, because no such thing survives contact with real organizations, their distributed systems, their inherited complexity, their political constraints, their unrelenting pressure. What I tried to write instead is the kind of reasoning you accumulate from working alongside engineers who have navigated these situations and lived to reflect honestly on what they learned. The kind of book that rewards a second reading more than a first.
+Compose ML pipelines from components you can test, version, and swap without holding your breath. The monolithic notebook that works for one data scientist becomes an obstacle the moment a second team needs to build on the same logic.
 
-If you are a platform engineer, an ML engineer, an architect, or a technical leader trying to make AI function not in a notebook or a controlled demo but in production, at scale, under real governance, this was written with you in mind. I hope it compresses some of the distance between where you are and where you are trying to arrive.
+Bring real engineering discipline to model operations. Deployment patterns. Drift monitoring. Automated retraining. Staged rollout. Rollback. Skip those and the system strains under its own weight within months, sometimes weeks.
 
-It took a long time to write. But then, the problems it concerns took even longer to understand. If any of this resonates, you can grab a copy [here](https://www.amazon.com/Platform-Engineering-Artificial-Intelligence-infrastructure/dp/9365897432).
+Then there are the parts that receive less attention and quietly decide outcomes.
+
+FinOps for AI workloads. Accelerator spend kills programs before they find their footing, and the cost visibility that would have saved them is rarely built until the budget conversation has already turned adversarial.
+
+Observability, but only when it is planned from the beginning. The version you attach after an incident never quite covers what you needed it to cover when the incident was happening.
+
+Infrastructure as Code for AI environments, so the compute substrate is as reproducible as the software running on it.
+
+And team composition. The least technical chapter in the book, and in my experience one of the most consequential. The most carefully designed platform still underperforms when the team is misaligned, too narrow in its expertise, or organized in ways that quietly recreate the very silos the platform was supposed to dissolve.
+
+The chapter I spent the most time on covers generative AI and agents. The architectural shift there is real, and what it demands of the platform is qualitatively different from what classical ML required.
+
+Generation enlarges the surface you have to govern. Prompt templates. Retrieval configurations. Vector indexes. Model adapters. All versioned. All under the same lifecycle discipline you would apply to code.
+
+Agent workflows fail in ways that classical ML monitoring was never designed to detect. Models orchestrating their own actions through tool-use and agent-to-agent protocols introduce failure modes that surface nowhere on your existing dashboards. The observability story for agents is still being written, and most organizations are running them without it.
+
+RAG looks like a retrieval problem until you run it at scale. Then it becomes an infrastructure problem, a latency problem, a freshness problem, and a content safety problem, all at once. The teams that handle this well are the ones who recognized early that RAG is a platform concern, not a model concern.
+
+A platform designed with foresight absorbs that complexity. One assembled without it amplifies it.
+
+What I hope comes through, underneath the technical content, is something I have concluded from years of watching both outcomes play out. Platform engineering is not the overhead you accept in order to do AI. It is the condition under which AI becomes worth doing. The organizations that treat it as tax pay it grudgingly and get grudging results. The ones that treat it as architecture invest once and compound from there.
+
+A well-engineered platform liberates teams. The governed path becomes the easy path. Isolated experiments become composable, reusable capabilities. Governance turns into the architecture of trust rather than the bureaucracy of control. And the people doing the real model work finally have a foundation stable enough to take real risks on.
+
+No universal blueprint survives contact with real organizations, their distributed systems, their inherited complexity, their political constraints, their unrelenting pressure to ship something visible before the infrastructure is ready. So the book is not a blueprint.
+
+What I tried to write is the reasoning you accumulate working alongside engineers who have been through this and stayed honest about what they learned. A book that rewards a second read more than a first, because the second time you bring your own scars to the page and the sentences land differently.
+
+If you are a platform engineer, an ML engineer, an architect, or a technical leader trying to get AI working in production, at scale, under real governance, I wrote this for you. I hope it closes some of the distance between where you are and where you are trying to be.
+
+It took a long time to write. The problems took longer to understand.
+
+If any of this resonates, you can grab a copy [here](https://www.amazon.com/Platform-Engineering-Artificial-Intelligence-infrastructure/dp/9365897432).
 
 And life goes on...
