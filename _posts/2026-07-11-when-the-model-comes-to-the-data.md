@@ -8,7 +8,7 @@ categories: ["AI Architecture"]
 draft: false
 ---
 
-![Edge inference](/assets/images/edge-inference.jpg)
+<img src="/assets/images/edge-inference.jpg" style="float: left; margin: 0 20px 20px 0; max-width: 250px;">
 
 *The default architecture of enterprise AI was never chosen so much as inherited.*
 
