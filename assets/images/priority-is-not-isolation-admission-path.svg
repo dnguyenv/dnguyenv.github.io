@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 740 310" width="740" height="310" role="img" aria-label="Where a shared GPU pool decides who waits">
+<!-- generated-by: ai-platform-engineering diagram.py | source: _diagrams/priority-is-not-isolation-admission-path.json | edit the source and rebuild with diagram.py build mode; hand edits to this file are detected and never overwritten | fingerprint=6e3df3e1dd346c01 -->
+<title>Where a shared GPU pool decides who waits</title>
+<defs>
+<marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#9a9a9a"/></marker>
+</defs>
+<g id="frame">
+<rect x="0.5" y="0.5" width="739" height="309" rx="10" fill="#141414" stroke="#2a2a2a"/>
+<text x="24.0" y="36.5" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#888888" text-anchor="start">Where a shared GPU pool decides who waits</text>
+</g>
+<g id="edge-chat-router">
+<line x1="176.6" y1="89.0" x2="293.7" y2="89.0" stroke="#9a9a9a" stroke-width="1.3" marker-end="url(#arrow)"/>
+</g>
+<g id="edge-batch-async">
+<line x1="176.6" y1="205.0" x2="293.7" y2="205.0" stroke="#9a9a9a" stroke-width="1.3" marker-end="url(#arrow)"/>
+</g>
+<g id="edge-async-router">
+<line x1="370.0" y1="174.0" x2="370.0" y2="120.0" stroke="#9a9a9a" stroke-width="1.3" marker-end="url(#arrow)"/>
+</g>
+<g id="edge-router-pool">
+<line x1="446.3" y1="89.0" x2="563.4" y2="89.0" stroke="#9a9a9a" stroke-width="1.3" marker-end="url(#arrow)"/>
+</g>
+<g id="edge-pool-async">
+<line x1="567.6" y1="120.0" x2="442.1" y2="174.0" stroke="#9a9a9a" stroke-width="1.3" stroke-dasharray="5 4" marker-end="url(#arrow)"/>
+</g>
+<g id="node-chat">
+<rect x="24.0" y="58.0" width="152.6" height="62.0" rx="6" fill="#1c1c1c" stroke="#888888" stroke-width="1.2"/>
+<text x="100.3" y="86.9" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#e8e8e8" text-anchor="middle">Chat tenant</text>
+<text x="100.3" y="101.8" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" font-weight="400" fill="#b0b0b0" text-anchor="middle">interactive</text>
+</g>
+<g id="node-batch">
+<rect x="24.0" y="174.0" width="152.6" height="62.0" rx="6" fill="#1c1c1c" stroke="#888888" stroke-width="1.2"/>
+<text x="100.3" y="202.9" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#e8e8e8" text-anchor="middle">Batch tenant</text>
+<text x="100.3" y="217.8" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" font-weight="400" fill="#b0b0b0" text-anchor="middle">durable queue</text>
+</g>
+<g id="node-router">
+<rect x="293.7" y="58.0" width="152.6" height="62.0" rx="6" fill="#1c1c1c" stroke="#e8e8e8" stroke-width="1.8"/>
+<text x="370.0" y="86.9" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#e8e8e8" text-anchor="middle">Router</text>
+<text x="370.0" y="101.8" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" font-weight="400" fill="#b0b0b0" text-anchor="middle">flow control</text>
+</g>
+<g id="node-async">
+<rect x="293.7" y="174.0" width="152.6" height="62.0" rx="6" fill="#e8e8e8" stroke="#e8e8e8" stroke-width="1.2"/>
+<text x="370.0" y="202.9" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#0d0d0d" text-anchor="middle">Dispatcher</text>
+<text x="370.0" y="217.8" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" font-weight="400" fill="#0d0d0d" text-anchor="middle">quota, worker cap</text>
+</g>
+<g id="node-pool">
+<rect x="563.4" y="58.0" width="152.6" height="62.0" rx="6" fill="#1c1c1c" stroke="#888888" stroke-width="1.2"/>
+<text x="639.7" y="86.9" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#e8e8e8" text-anchor="middle">vLLM pool</text>
+<text x="639.7" y="101.8" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" font-weight="400" fill="#b0b0b0" text-anchor="middle">small buffer</text>
+</g>
+<g id="label-chat-router">
+<rect x="192.0" y="79.5" width="86.2" height="19.0" rx="3" fill="#141414"/>
+<text x="235.1" y="92.8" font-family="'JetBrains Mono', 'SFMono-Regular', Menlo, Consolas, monospace" font-size="11" font-weight="400" fill="#b0b0b0" text-anchor="middle">fairness-id</text>
+</g>
+<g id="label-batch-async">
+<rect x="188.6" y="195.5" width="93.2" height="19.0" rx="3" fill="#141414"/>
+<text x="235.1" y="208.8" font-family="'JetBrains Mono', 'SFMono-Regular', Menlo, Consolas, monospace" font-size="11" font-weight="400" fill="#b0b0b0" text-anchor="middle">publish once</text>
+</g>
+<g id="label-async-router">
+<rect x="340.7" y="137.5" width="58.5" height="19.0" rx="3" fill="#141414"/>
+<text x="370.0" y="150.8" font-family="'JetBrains Mono', 'SFMono-Regular', Menlo, Consolas, monospace" font-size="11" font-weight="400" fill="#b0b0b0" text-anchor="middle">metered</text>
+</g>
+<g id="label-router-pool">
+<rect x="482.5" y="79.5" width="44.6" height="19.0" rx="3" fill="#141414"/>
+<text x="504.9" y="92.8" font-family="'JetBrains Mono', 'SFMono-Regular', Menlo, Consolas, monospace" font-size="11" font-weight="400" fill="#b0b0b0" text-anchor="middle">gated</text>
+</g>
+<g id="label-pool-async">
+<rect x="465.2" y="137.5" width="79.3" height="19.0" rx="3" fill="#141414"/>
+<text x="504.9" y="150.8" font-family="'JetBrains Mono', 'SFMono-Regular', Menlo, Consolas, monospace" font-size="11" font-weight="400" fill="#b0b0b0" text-anchor="middle">saturation</text>
+</g>
+<text x="24.0" y="266.4" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#888888" text-anchor="start">The router holds work it can still reorder. The dispatcher keeps the batch from arriving as a</text>
+<text x="24.0" y="282.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#888888" text-anchor="start">burst. Dashed is the backpressure loop.</text>
+</svg>
