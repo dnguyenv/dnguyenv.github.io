@@ -12,6 +12,13 @@ favicon: "/favicon.ico"
 # Optional: cleaner permalinks (classic look)
 permalink: /:year/:month/:title/
 
+defaults:
+  - scope:
+      path: "_posts"
+      type: "posts"
+    values:
+      layout: post
+
 markdown: kramdown
 kramdown:
   syntax_highlighter: rouge

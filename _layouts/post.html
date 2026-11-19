@@ -19,7 +19,8 @@ layout: default
   </header>
 
   <div class="post-content">
-    {{ content }}
+    {%- assign post_body = content | replace: '<table>', '<div class="table-scroll"><table>' -%}
+    {{ post_body | replace: '</table>', '</table></div>' }}
   </div>
 
   <div class="post-back">
