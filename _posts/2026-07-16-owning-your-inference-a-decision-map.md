@@ -8,9 +8,9 @@ categories: ["AI Architecture"]
 draft: false
 ---
 
-![Inference decision map](/assets/images/inference-decision-map.png)
+![Four stacked layers, hardware ladder, models worth owning, serving stack, and where the math turns, the sequence described in the post.](/assets/images/owning-your-inference-a-decision-map.svg)
 
-*Last week I argued that inference is moving to where the data lives. This week I want to lay out the map you would need to actually make that move.*
+*Last week, in [When the Model Comes to the Data](/2026/07/when-the-model-comes-to-the-data/), I argued that inference is moving to where the data lives. This week I want to lay out the map you would need to actually make that move.*
 
 What follows is the four-layer inventory I would want in front of me if I were deciding, this quarter, whether to shift real workloads off token-metered APIs and onto hardware I control: what to buy, what to run on it, what to serve it with, and where the math turns. Everything here is sourced as of mid-July 2026, and I have flagged the numbers most likely to drift, because in this market they drift fast.
 
