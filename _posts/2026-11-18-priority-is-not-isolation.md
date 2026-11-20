@@ -1,11 +1,11 @@
 ---
 title: "Priority Is Not Isolation"
-date: 2026-11-18
+date: 2026-11-19
 author: "Duy Nguyen"
 tags: ["AI", "Inference", "Platform Engineering"]
 description: "What llm-d's flow control and a fresh multi-tenant benchmark say about sharing one GPU pool between interactive and batch tenants, and why the lever that protects latency sits upstream of the router."
 categories: ["Platform Engineering", "AI Architecture"]
-draft: true
+draft: false
 ---
 
 *Every shared GPU pool eventually gets a nightly batch job, and the batch job always wins unless someone decides otherwise.*
